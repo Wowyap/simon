@@ -19,3 +19,5 @@ export const BOARD_COLORS: readonly BoardColor[] = [
 ];
 
 export const TOTAL_ROUNDS = 10;
+
+export const COLOR_IDS: readonly ColorId[] = BOARD_COLORS.map((c) => c.id);
