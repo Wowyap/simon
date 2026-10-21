@@ -1,0 +1,41 @@
+/* Design tokens from DESIGN.md §2 (Style Guide + Mockups dark theme). */
+:root {
+  /* Colors */
+  --color-green: #00d26a;
+  --color-red: #ff3b30;
+  --color-yellow: #ffd600;
+  --color-blue: #00a3ff;
+  --color-charcoal: #0f0f0f;
+  --color-soft-gray: #e5e5e5;
+  --color-white: #ffffff;
+  --color-bg: #0a1628;
+  --color-surface: #12213a;
+  --color-border: #1e3556;
+
+  /* Spacing scale */
+  --space-1: 8px;
+  --space-2: 12px;
+  --space-3: 16px;
+  --space-4: 24px;
+
+  /* Typography */
+  --font-family: 'Heebo', Arial, sans-serif;
+  --fs-h1: 32px;
+  --fs-h2: 24px;
+  --fs-h3: 20px;
+  --fs-body: 16px;
+  --fs-caption: 14px;
+  --fs-button: 16px;
+  --fw-regular: 400;
+  --fw-semibold: 600;
+  --fw-bold: 700;
+
+  /* Radii */
+  --radius-pill: 999px;
+  --radius-card: 16px;
+  --radius-nav: 16px;
+
+  /* Shadows */
+  --shadow-button: 0 6px 16px rgba(0, 163, 255, 0.35);
+  --shadow-board: 0 10px 30px rgba(0, 0, 0, 0.45);
+}

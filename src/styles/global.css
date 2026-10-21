@@ -1,0 +1,55 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  min-height: 100%;
+  background: var(--color-bg);
+  color: var(--color-white);
+}
+
+body {
+  font-family: var(--font-family);
+  font-size: var(--fs-body);
+  font-weight: var(--fw-regular);
+  line-height: 1.5;
+  direction: rtl;
+  text-align: right;
+  -webkit-text-size-adjust: 100%;
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+button {
+  font: inherit;
+  color: inherit;
+}
+
+/* App shell: phone-width column, content scrolls, nav sticks to the bottom. */
+.app {
+  min-height: 100vh;
+  min-height: 100dvh;
+  max-width: 480px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+
+.app__main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: var(--space-3) var(--space-3) var(--space-4);
+}
